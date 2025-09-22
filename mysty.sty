@@ -1,3 +1,8 @@
+\usepackage{amssymb,amsmath,mathrsfs,stmaryrd,eucal}
+\usepackage{amsthm,empheq}
+
+\numberwithin{equation}{section}
+
 
 
 \newcommand{\R}{\mathbb{R}}
@@ -7,11 +12,12 @@
 
 
 \newtheorem{theorem}{Thorem}[section]
-\newtheorem{proof}{Proof}
-\newtheorem{remark}{Remark}[section]
-\newtheorem{lemma}{Lemma}[section]
-\newtheorem{proposition}{Proposition}[section]
-
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
 
 
 
