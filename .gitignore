@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+
+!.tex
+!.sty
+!.pdf
+!.png
+!.jpg
+!.bib
