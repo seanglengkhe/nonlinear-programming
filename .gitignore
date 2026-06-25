@@ -2,9 +2,9 @@
 
 !.gitignore
 
-!.tex
-!.sty
-!.pdf
-!.png
-!.jpg
-!.bib
+!*.pdf
+!*.tex
+!*.bib
+!*.png
+!*.jpg
+!*.sty
